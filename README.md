@@ -14,11 +14,9 @@ Explorer comment interagir avec un environnement RL (CartPole-v1) et exécuter d
 
 ### TP2:
 L’objectif de ce TP est d’apprendre à un agent à traverser un lac gelé (FrozenLake) sans tomber dans un trou, en utilisant l'algorithme d’apprentissage par renforcement Q-Learning.
-
 L’agent doit apprendre à se déplacer intelligemment sur une grille où :
 - Certaines cases sont sécurisées (S, F, G)
 - D’autres cases sont des pièges (H : trous où l’agent tombe)
-
 Il doit maximiser sa récompense en atteignant l’objectif (G) sans tomber dans un trou.
 
 ### TP3: Optimisation des Feux de Circulation avec l'Apprentissage par Renforcement
@@ -28,3 +26,8 @@ L’agent devra apprendre à prendre les bonnes décisions pour changer ou garde
 - Maximiser le nombre de voitures qui traversent l’intersection
 Pour cela, il explorera différentes stratégies et mettra à jour une Q-Table en fonction des récompenses reçues, qui correspondent au nombre de voitures ayant réussi à passer, à la fin déterminer la meilleure stratégie pour fluidifier le trafic.
 
+### TP4:
+L'objectif de ce TP est de se familiariser avec l'implémentation de l'algorithme **Proximal Policy Optimization (PPO)**. Le TP consiste à :  
+- Construire une **table de politiques**.  
+- Mettre à jour la **valeur des états**.  
+- Entraîner un **agent** à résoudre le problème de transport de passagers dans l'environnement **Taxi-v3**.
